@@ -1,0 +1,2 @@
+Invoking command in '/home/hollowknight/Documents/code/Doe/src/build/doe_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hollowknight/Documents/code/Doe/src/doe_control -DCMAKE_INSTALL_PREFIX=/home/hollowknight/Documents/code/Doe/src/install/doe_control
+Invoked command in '/home/hollowknight/Documents/code/Doe/src/build/doe_control' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hollowknight/Documents/code/Doe/src/doe_control -DCMAKE_INSTALL_PREFIX=/home/hollowknight/Documents/code/Doe/src/install/doe_control

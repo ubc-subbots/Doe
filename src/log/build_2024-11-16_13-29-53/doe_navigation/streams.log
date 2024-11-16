@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/hollowknight/Documents/code/Doe/src/build/doe_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hollowknight/Documents/code/Doe/src/doe_navigation -DCMAKE_INSTALL_PREFIX=/home/hollowknight/Documents/code/Doe/src/install/doe_navigation
+[0.048s] -- The C compiler identification is GNU 13.2.0
+[0.094s] -- The CXX compiler identification is GNU 13.2.0
+[0.110s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.292s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.292s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.292s]   has asked CMake to find a package configuration file provided by
+[0.292s]   "ament_cmake", but CMake did not find one.
+[0.292s] 
+[0.292s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.292s]   any of the following names:
+[0.292s] 
+[0.292s]     ament_cmakeConfig.cmake
+[0.292s]     ament_cmake-config.cmake
+[0.293s] 
+[0.293s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.293s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.293s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.293s]   has been installed.
+[0.293s] 
+[0.293s] [0m
+[0.293s] -- Configuring incomplete, errors occurred!
+[0.298s] Invoked command in '/home/hollowknight/Documents/code/Doe/src/build/doe_navigation' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hollowknight/Documents/code/Doe/src/doe_navigation -DCMAKE_INSTALL_PREFIX=/home/hollowknight/Documents/code/Doe/src/install/doe_navigation

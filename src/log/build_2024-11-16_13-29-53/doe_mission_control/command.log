@@ -1,0 +1,1 @@
+Invoking command in '/home/hollowknight/Documents/code/Doe/src/build/doe_mission_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hollowknight/Documents/code/Doe/src/doe_mission_control -DCMAKE_INSTALL_PREFIX=/home/hollowknight/Documents/code/Doe/src/install/doe_mission_control

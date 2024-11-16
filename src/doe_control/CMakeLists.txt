@@ -1,15 +1,42 @@
 cmake_minimum_required(VERSION 3.8)
 project(doe_control)
 
+# Default to C17
+if(NOT CMAKE_C_STANDARD)
+  set(CMAKE_C_STANDARD 17)
+endif()
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(ament_cmake_python REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(rclcpp_components REQUIRED)
+find_package(Eigen3 REQUIRED)
+find_package(triton_interfaces REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(OpenCV 4.10 REQUIRED)
+find_package(tf2 REQUIRED)
+
+# Header files
+include_directories(include)
+
+# Do this for every node
+add_executable(thrust_publisher src/thrust_publisher.cpp)
+install(TARGETS thrust_publisher
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
