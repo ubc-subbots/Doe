@@ -1,0 +1,53 @@
+[0.044s] Invoking command in '/home/hollowknight/Documents/code/Doe/build/doe_simulation': AMENT_PREFIX_PATH=/home/hollowknight/Documents/code/Doe/install/doe_simulation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hollowknight/Documents/code/Doe/install/doe_simulation:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.069s] UpdateCTestConfiguration  from :/home/hollowknight/Documents/code/Doe/build/doe_simulation/CTestConfiguration.ini
+[0.069s] Parse Config file:/home/hollowknight/Documents/code/Doe/build/doe_simulation/CTestConfiguration.ini
+[0.069s]    Site: Silksong
+[0.069s]    Build name: (empty)
+[0.069s]  Add coverage exclude regular expressions.
+[0.069s] Create new tag: 20241130-1538 - Experimental
+[0.069s] UpdateCTestConfiguration  from :/home/hollowknight/Documents/code/Doe/build/doe_simulation/CTestConfiguration.ini
+[0.069s] Parse Config file:/home/hollowknight/Documents/code/Doe/build/doe_simulation/CTestConfiguration.ini
+[0.069s] Test project /home/hollowknight/Documents/code/Doe/build/doe_simulation
+[0.070s] Constructing a list of tests
+[0.070s] Done constructing a list of tests
+[0.070s] Updating test list for fixtures
+[0.070s] Added 0 tests to meet fixture requirements
+[0.070s] Checking test dependency graph...
+[0.070s] Checking test dependency graph end
+[0.070s] test 1
+[0.070s]     Start 1: lint_cmake
+[0.070s] 
+[0.070s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_simulation/test_results/doe_simulation/lint_cmake.xunit.xml" "--package-name" "doe_simulation" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_simulation/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_simulation/test_results/doe_simulation/lint_cmake.xunit.xml"
+[0.070s] 1: Working Directory: /home/hollowknight/Documents/code/Doe/src/doe_simulation
+[0.070s] 1: Test timeout computed to be: 60
+[0.101s] 1: -- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_simulation':
+[0.101s] 1:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_simulation/test_results/doe_simulation/lint_cmake.xunit.xml
+[0.158s] 1: 
+[0.159s] 1: No problems found
+[0.171s] 1: -- run_test.py: return code 0
+[0.171s] 1: -- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_simulation/test_results/doe_simulation/lint_cmake.xunit.xml'
+[0.179s] 1/2 Test #1: lint_cmake .......................   Passed    0.13 sec
+[0.179s] test 2
+[0.179s]     Start 2: xmllint
+[0.179s] 
+[0.179s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_simulation/test_results/doe_simulation/xmllint.xunit.xml" "--package-name" "doe_simulation" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_simulation/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_simulation/test_results/doe_simulation/xmllint.xunit.xml"
+[0.179s] 2: Working Directory: /home/hollowknight/Documents/code/Doe/src/doe_simulation
+[0.179s] 2: Test timeout computed to be: 60
+[0.226s] 2: -- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_simulation':
+[0.226s] 2:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_simulation/test_results/doe_simulation/xmllint.xunit.xml
+[0.608s] 2: File 'package.xml' is valid
+[0.608s] 2: 
+[0.608s] 2: No problems found
+[0.620s] 2: -- run_test.py: return code 0
+[0.620s] 2: -- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_simulation/test_results/doe_simulation/xmllint.xunit.xml'
+[0.627s] 2/2 Test #2: xmllint ..........................   Passed    0.45 sec
+[0.628s] 
+[0.629s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 2
+[0.629s] 
+[0.629s] Label Time Summary:
+[0.629s] lint_cmake    =   0.13 sec*proc (1 test)
+[0.629s] linter        =   0.57 sec*proc (2 tests)
+[0.630s] xmllint       =   0.45 sec*proc (1 test)
+[0.630s] 
+[0.630s] Total Test time (real) =   0.58 sec
+[0.633s] Invoked command in '/home/hollowknight/Documents/code/Doe/build/doe_simulation' returned '0': AMENT_PREFIX_PATH=/home/hollowknight/Documents/code/Doe/install/doe_simulation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hollowknight/Documents/code/Doe/install/doe_simulation:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

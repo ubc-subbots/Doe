@@ -1,0 +1,41 @@
+name: Doe Build and Test CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out ubc-subbots/triton
+        uses: actions/checkout@v2
+
+      - name: Setup ROS2 distro and system deps
+        uses: ros-tooling/setup-ros@v0.7
+        with:
+          required-ros-distributions: jazzy
+
+      - name: Cache OpenCV
+        id: opencv-cache
+        uses: actions/cache@v2
+        with:
+          path: ./opencv-install
+          key: ${{ runner.os }}-opencv-cache
+
+      - name: Install OpenCV
+        uses: rayandrews/with-opencv-action@v1
+        with:
+          dir: ./opencv-install
+          cached: ${{ steps.opencv-cache.outputs.cache-hit }}
+          opencv-version: '4.10.0'
+          CMAKE_BUILD_TYPE: RELEASE
+          ENABLE_PRECOMPILED_HEADERS: OFF
+
+
+      - uses: ros-tooling/action-ros-ci@v0.3
+        with:
+          package-name: doe_control
+          target-ros2-distro: jazzy

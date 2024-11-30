@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/home/hollowknight/Documents/code/Doe/build/doe_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hollowknight/Documents/code/Doe/src/doe_control -DCMAKE_INSTALL_PREFIX=/home/hollowknight/Documents/code/Doe/install/doe_control
+[0.025s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.186s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.208s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.279s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.280s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.330s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.378s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.399s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.422s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.441s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.470s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[0.470s]   Could not find a configuration file for package "OpenCV" that is compatible
+[0.470s]   with requested version "4.10.0".
+[0.470s] 
+[0.470s]   The following configuration files were considered but not accepted:
+[0.470s] 
+[0.470s]     /usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.6.0
+[0.470s]     /lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.6.0
+[0.470s] 
+[0.471s] 
+[0.471s] [0m
+[0.471s] -- Configuring incomplete, errors occurred!
+[0.476s] Invoked command in '/home/hollowknight/Documents/code/Doe/build/doe_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hollowknight/Documents/code/Doe/src/doe_control -DCMAKE_INSTALL_PREFIX=/home/hollowknight/Documents/code/Doe/install/doe_control

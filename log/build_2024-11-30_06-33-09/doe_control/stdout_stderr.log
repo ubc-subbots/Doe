@@ -1,0 +1,32 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o[0m
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:[m[K In constructor ‘[01m[Kdoe_control::ThrustPublisher::[01;32m[KThrustPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:17:5:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+   17 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:[m[K At global scope:
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:142:14:[m[K [01;31m[Kerror: [m[K‘[01m[KThrust[m[K’ has not been declared
+  142 |     uint32_t [01;31m[KThrust[m[K::forceToLevel(double force) const{
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:142:49:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kuint32_t doe_control::[01;32m[KforceToLevel[m[K(double)[m[K’ cannot have cv-qualifier
+  142 |     uint32_t Thrust::forceToLevel(double force) [01;31m[Kconst[m[K{
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:[m[K In function ‘[01m[Kuint32_t doe_control::[01;32m[KforceToLevel[m[K(double)[m[K’:
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:151:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_fwd_[m[K’ was not declared in this scope
+  151 |             t_level = (uint32_t) (std::ceil(std::min(force, [01;31m[Kmax_fwd_[m[K) / max_fwd_ * (encode_levels_/2 - 1)));
+      |                                                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:151:85:[m[K [01;31m[Kerror: [m[K‘[01m[Kencode_levels_[m[K’ was not declared in this scope
+  151 |             t_level = (uint32_t) (std::ceil(std::min(force, max_fwd_) / max_fwd_ * ([01;31m[Kencode_levels_[m[K/2 - 1)));
+      |                                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:158:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_rev_[m[K’ was not declared in this scope
+  158 |         t_level = (uint32_t) (16 - std::ceil(std::max(force, -[01;31m[Kmax_rev_[m[K) / -max_rev_ * (encode_levels_/2)));
+      |                                                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:158:88:[m[K [01;31m[Kerror: [m[K‘[01m[Kencode_levels_[m[K’ was not declared in this scope
+  158 |        t_level = (uint32_t) (16 - std::ceil(std::max(force, -max_rev_) / -max_rev_ * ([01;31m[Kencode_levels_[m[K/2)));
+      |                                                                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:161:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kbits_per_thruster_[m[K’ was not declared in this scope
+  161 |         t_level &= ((uint32_t)pow(2, [01;31m[Kbits_per_thruster_[m[K) - 1);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/thrust_publisher.dir/build.make:76: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thrust_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

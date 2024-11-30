@@ -4,7 +4,7 @@ using std::placeholders::_1;
 
 namespace doe_control
 {
-    ThrustPublisher::ThrustPublisher(const rclcpp::NodeOptions & options) : 
+    ThrustPublisher::ThrustPublisher(const rclcpp::NodeOptions & options) :
     Node ("thrust_publisher", options),
         // The distance between center of gravity and thrusters
         x_lens_ (SUPPORTED_THRUSTERS, 0),
@@ -13,7 +13,7 @@ namespace doe_control
         // Thruster orientation and force vectors
         x_contribs_ (SUPPORTED_THRUSTERS, 0),
         y_contribs_ (SUPPORTED_THRUSTERS, 0),
-        z_contribs_ (SUPPORTED_THRUSTERS, 0),
+        z_contribs_ (SUPPORTED_THRUSTERS, 0)
     {
         this->declare_parameter<int>("num_thrusters", num_thrusters_);
         if (num_thrusters_ > SUPPORTED_THRUSTERS)
@@ -58,7 +58,7 @@ namespace doe_control
             for (int j = 0; j < alloc_mat.cols; j++)
                 alloc_mat.at<double>(i,j) = alloc_vec[i][j];
 
-        RCLCPP_INFO(this->get_logger(), "Allocation Matrix:\n%s", alloc_mat.dump().c_str());
+        // RCLCPP_INFO(this->get_logger(), "Allocation Matrix:\n%s", alloc_mat);
 
 
         cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);
@@ -139,7 +139,7 @@ namespace doe_control
         return alloc_mat_trans;
     }
 
-    uint32_t Thrust::forceToLevel(double force) const{
+    uint32_t ThrustPublisher::forceToLevel(double force) const{
         uint32_t t_level;
         if (force < 0.1 && force > -0.1)
         {
@@ -166,3 +166,15 @@ namespace doe_control
 
 
 } // namespace doe_control
+
+int main(int argc, char * argv[])
+{
+  try {
+    rclcpp::init(argc, argv);
+    auto options = rclcpp::NodeOptions();
+    rclcpp::spin(std::make_shared<doe_control::ThrustPublisher>(options));
+    rclcpp::shutdown();
+  } catch (rclcpp::exceptions::RCLError const&){} // during testing sometimes throws error
+  return 0;
+}
+

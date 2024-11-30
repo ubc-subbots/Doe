@@ -29,11 +29,25 @@ find_package(tf2 REQUIRED)
 
 # Header files
 include_directories(include)
+include_directories(${OpenCV_INCLUDE_DIRS})
 
+
+# Create cpp executable
 # Do this for every node
 add_executable(thrust_publisher src/thrust_publisher.cpp)
+
+
+
 install(TARGETS thrust_publisher
   DESTINATION lib/${PROJECT_NAME}
+)
+
+ament_target_dependencies(
+  thrust_publisher
+  "rclcpp"
+  "geometry_msgs"
+  "rclcpp_components"
+  "OpenCV"
 )
 
 

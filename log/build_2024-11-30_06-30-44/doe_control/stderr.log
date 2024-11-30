@@ -1,0 +1,8 @@
+In file included from [01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/src/thrust_publisher.cpp:1[m[K:
+[01m[K/home/hollowknight/Documents/code/Doe/src/doe_control/include/doe_control/thrust_publisher.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/wrench.hpp: No such file or directory
+   10 | #include [01;31m[K"geometry_msgs/msg/wrench.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/thrust_publisher.dir/build.make:76: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thrust_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

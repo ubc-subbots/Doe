@@ -1,0 +1,53 @@
+Start testing: Nov 30 07:38 PST
+----------------------------------------------------------
+1/2 Testing: lint_cmake
+1/2 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/lint_cmake.xunit.xml" "--package-name" "doe_perception" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_perception/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/lint_cmake.xunit.xml"
+Directory: /home/hollowknight/Documents/code/Doe/src/doe_perception
+"lint_cmake" start time: Nov 30 07:38 PST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_perception':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Nov 30 07:38 PST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: xmllint
+2/2 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/xmllint.xunit.xml" "--package-name" "doe_perception" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_perception/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/xmllint.xunit.xml"
+Directory: /home/hollowknight/Documents/code/Doe/src/doe_perception
+"xmllint" start time: Nov 30 07:38 PST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_perception':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/xmllint.xunit.xml'
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Nov 30 07:38 PST
+"xmllint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 30 07:38 PST
+
+lint_cmake =   0.13 sec*proc
+
+linter =   0.57 sec*proc
+
+xmllint =   0.44 sec*proc
+

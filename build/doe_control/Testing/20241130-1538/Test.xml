@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241130-1538-Experimental"
+	Name="Silksong"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.2.0"
+	OSName="Linux"
+	Hostname="Silksong"
+	OSRelease="6.8.0-49-generic"
+	OSVersion="#49-Ubuntu SMP PREEMPT_DYNAMIC Mon Nov  4 02:06:24 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="33"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="8191"
+	TotalPhysicalMemory="31990"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4590.47"
+	>
+	<Testing>
+		<StartDateTime>Nov 30 07:38 PST</StartDateTime>
+		<StartTestTime>1732981128</StartTestTime>
+		<TestList>
+			<Test>./cppcheck</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./uncrustify</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>cppcheck</Name>
+			<Path>.</Path>
+			<FullName>./cppcheck</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/cppcheck.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/cppcheck.xunit.xml" "--include_dirs" "/home/hollowknight/Documents/code/Doe/src/doe_control/include"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.132692</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/cppcheck.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/cppcheck.xunit.xml" "--include_dirs" "/home/hollowknight/Documents/code/Doe/src/doe_control/include"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_control':
+ - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/cppcheck.xunit.xml --include_dirs /home/hollowknight/Documents/code/Doe/src/doe_control/include
+cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/cppcheck.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cppcheck</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.114687</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_control':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>uncrustify</Name>
+			<Path>.</Path>
+			<FullName>./uncrustify</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/uncrustify.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/uncrustify.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.139595</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/uncrustify.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/uncrustify.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_control':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/uncrustify.xunit.xml
+Code style divergence in file 'include/doe_control/thrust_publisher.hpp':
+
+--- include/doe_control/thrust_publisher.hpp
++++ include/doe_control/thrust_publisher.hpp.uncrustify
+@@ -17,2 +17,2 @@
+-    class ThrustPublisher: public rclcpp::Node
+-    {
++class ThrustPublisher : public rclcpp::Node
++{
+@@ -20,2 +20 @@
+-    public:
+-
++public:
+@@ -29 +28 @@
+-        explicit ThrustPublisher(const rclcpp::NodeOptions &amp; options);
++  explicit ThrustPublisher(const rclcpp::NodeOptions &amp; options);
+@@ -31,2 +30 @@
+-    private:
+-
++private:
+@@ -43 +41 @@
+-        void wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const;
++  void wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const;
+@@ -51 +49 @@
+-        std::vector&lt;double&gt; cross(std::vector&lt;double&gt; r,std::vector&lt;double&gt; F);
++  std::vector&lt;double&gt; cross(std::vector&lt;double&gt; r, std::vector&lt;double&gt; F);
+@@ -58 +56 @@
+-        std::vector&lt;std::vector&lt;double&gt;&gt; createAllocMat();
++  std::vector&lt;std::vector&lt;double&gt;&gt; createAllocMat();
+@@ -67 +65 @@
+-        uint32_t forceToLevel(double force) const;
++  uint32_t forceToLevel(double force) const;
+@@ -69,2 +67,2 @@
+-        rclcpp::Publisher&lt;std_msgs::msg::Float64MultiArray&gt;::SharedPtr forces_pub_;
+-        rclcpp::Publisher&lt;std_msgs::msg::UInt32&gt;::SharedPtr signals_pub_;
++  rclcpp::Publisher&lt;std_msgs::msg::Float64MultiArray&gt;::SharedPtr forces_pub_;
++  rclcpp::Publisher&lt;std_msgs::msg::UInt32&gt;::SharedPtr signals_pub_;
+@@ -72 +70 @@
+-        rclcpp::Subscription&lt;geometry_msgs::msg::Wrench&gt;::SharedPtr forces_sub_;
++  rclcpp::Subscription&lt;geometry_msgs::msg::Wrench&gt;::SharedPtr forces_sub_;
+@@ -74 +72 @@
+-        cv::Mat pinv_alloc_;
++  cv::Mat pinv_alloc_;
+@@ -76,12 +74,12 @@
+-        int num_thrusters_ = 0;
+-        int bits_per_thruster_ = 0;
+-        int encode_levels_ = 0;
+-        double max_fwd_ = 0;
+-        double max_rev_ = 0;
+-        std::vector&lt;double&gt; x_lens_;
+-        std::vector&lt;double&gt; y_lens_;
+-        std::vector&lt;double&gt; z_lens_;
+-        std::vector&lt;double&gt; x_contribs_;
+-        std::vector&lt;double&gt; y_contribs_;
+-        std::vector&lt;double&gt; z_contribs_;
+-    };
++  int num_thrusters_ = 0;
++  int bits_per_thruster_ = 0;
++  int encode_levels_ = 0;
++  double max_fwd_ = 0;
++  double max_rev_ = 0;
++  std::vector&lt;double&gt; x_lens_;
++  std::vector&lt;double&gt; y_lens_;
++  std::vector&lt;double&gt; z_lens_;
++  std::vector&lt;double&gt; x_contribs_;
++  std::vector&lt;double&gt; y_contribs_;
++  std::vector&lt;double&gt; z_contribs_;
++};
+
+Code style divergence in file 'src/thrust_publisher.cpp':
+
+--- src/thrust_publisher.cpp
++++ src/thrust_publisher.cpp.uncrustify
+@@ -7,2 +7,2 @@
+-    ThrustPublisher::ThrustPublisher(const rclcpp::NodeOptions &amp; options) :
+-    Node ("thrust_publisher", options),
++ThrustPublisher::ThrustPublisher(const rclcpp::NodeOptions &amp; options)
++:Node ("thrust_publisher", options),
+@@ -10,3 +10,3 @@
+-        x_lens_ (SUPPORTED_THRUSTERS, 0),
+-        y_lens_ (SUPPORTED_THRUSTERS, 0),
+-        z_lens_ (SUPPORTED_THRUSTERS, 0),
++  x_lens_ (SUPPORTED_THRUSTERS, 0),
++  y_lens_ (SUPPORTED_THRUSTERS, 0),
++  z_lens_ (SUPPORTED_THRUSTERS, 0),
+@@ -14,9 +14,9 @@
+-        x_contribs_ (SUPPORTED_THRUSTERS, 0),
+-        y_contribs_ (SUPPORTED_THRUSTERS, 0),
+-        z_contribs_ (SUPPORTED_THRUSTERS, 0)
+-    {
+-        this-&gt;declare_parameter&lt;int&gt;("num_thrusters", num_thrusters_);
+-        if (num_thrusters_ &gt; SUPPORTED_THRUSTERS)
+-        {
+-            RCLCPP_ERROR(this-&gt;get_logger(), "Number of thrusters is greater than supported thruster count");
+-        }
++  x_contribs_ (SUPPORTED_THRUSTERS, 0),
++  y_contribs_ (SUPPORTED_THRUSTERS, 0),
++  z_contribs_ (SUPPORTED_THRUSTERS, 0)
++{
++  this-&gt;declare_parameter&lt;int&gt;("num_thrusters", num_thrusters_);
++  if (num_thrusters_ &gt; SUPPORTED_THRUSTERS) {
++    RCLCPP_ERROR(this-&gt;get_logger(),
++        "Number of thrusters is greater than supported thruster count");
++  }
+@@ -24,2 +24,2 @@
+-        this-&gt;declare_parameter&lt;int&gt;("bits_per_thruster", bits_per_thruster_);
+-        this-&gt;get_parameter("bits_per_thruster", bits_per_thruster_);
++  this-&gt;declare_parameter&lt;int&gt;("bits_per_thruster", bits_per_thruster_);
++  this-&gt;get_parameter("bits_per_thruster", bits_per_thruster_);
+@@ -27,6 +27,6 @@
+-        this-&gt;declare_parameter&lt;double&gt;("max_fwd", max_fwd_);
+-        this-&gt;get_parameter("max_fwd", max_fwd_);
+-        max_fwd_ *= 9.807; // kgf to N
+-        this-&gt;declare_parameter&lt;double&gt;("max_rev", max_rev_);
+-        max_rev_ *= 9.807; // kgf to N
+-        this-&gt;get_parameter("max_rev", max_rev_);
++  this-&gt;declare_parameter&lt;double&gt;("max_fwd", max_fwd_);
++  this-&gt;get_parameter("max_fwd", max_fwd_);
++  max_fwd_ *= 9.807;       // kgf to N
++  this-&gt;declare_parameter&lt;double&gt;("max_rev", max_rev_);
++  max_rev_ *= 9.807;       // kgf to N
++  this-&gt;get_parameter("max_rev", max_rev_);
+@@ -34 +34 @@
+-        encode_levels_ = pow(2,bits_per_thruster_);
++  encode_levels_ = pow(2, bits_per_thruster_);
+@@ -36 +36,2 @@
+-        std::string names[SUPPORTED_THRUSTERS] = {"thruster1", "thruster2", "thruster3", "thruster4", "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"};
++  std::string names[SUPPORTED_THRUSTERS] = {"thruster1", "thruster2", "thruster3", "thruster4",
++    "thruster5", "thruster6", "thruster8", "thruster9", "thruster10"};
+@@ -38,8 +39,7 @@
+-        for (int i = 0; i &lt; SUPPORTED_THRUSTERS; i++)
+-        {
+-            this-&gt;declare_parameter(names[i]+".contrib.x", x_contribs_[i]);
+-            this-&gt;declare_parameter(names[i]+".contrib.y", y_contribs_[i]);
+-            this-&gt;declare_parameter(names[i]+".contrib.z", z_contribs_[i]);
+-            this-&gt;declare_parameter(names[i]+".lx", x_lens_[i]);
+-            this-&gt;declare_parameter(names[i]+".ly", y_lens_[i]);
+-            this-&gt;declare_parameter(names[i]+".lz", z_lens_[i]);
++  for (int i = 0; i &lt; SUPPORTED_THRUSTERS; i++) {
++    this-&gt;declare_parameter(names[i] + ".contrib.x", x_contribs_[i]);
++    this-&gt;declare_parameter(names[i] + ".contrib.y", y_contribs_[i]);
++    this-&gt;declare_parameter(names[i] + ".contrib.z", z_contribs_[i]);
++    this-&gt;declare_parameter(names[i] + ".lx", x_lens_[i]);
++    this-&gt;declare_parameter(names[i] + ".ly", y_lens_[i]);
++    this-&gt;declare_parameter(names[i] + ".lz", z_lens_[i]);
+@@ -47,8 +47,8 @@
+-            this-&gt;get_parameter(names[i]+".contrib.x", x_contribs_[i]);
+-            this-&gt;get_parameter(names[i]+".contrib.y", y_contribs_[i]);
+-            this-&gt;get_parameter(names[i]+".contrib.z", z_contribs_[i]);
+-            this-&gt;get_parameter(names[i]+".lx", x_lens_[i]);
+-            this-&gt;get_parameter(names[i]+".ly", y_lens_[i]);
+-            this-&gt;get_parameter(names[i]+".lz", z_lens_[i]);
+-        }
+-        std::vector&lt;std::vector&lt;double&gt;&gt; alloc_vec =  createAllocMat();
++    this-&gt;get_parameter(names[i] + ".contrib.x", x_contribs_[i]);
++    this-&gt;get_parameter(names[i] + ".contrib.y", y_contribs_[i]);
++    this-&gt;get_parameter(names[i] + ".contrib.z", z_contribs_[i]);
++    this-&gt;get_parameter(names[i] + ".lx", x_lens_[i]);
++    this-&gt;get_parameter(names[i] + ".ly", y_lens_[i]);
++    this-&gt;get_parameter(names[i] + ".lz", z_lens_[i]);
++  }
++  std::vector&lt;std::vector&lt;double&gt;&gt; alloc_vec = createAllocMat();
+@@ -56,4 +56,6 @@
+-        cv::Mat alloc_mat (alloc_vec.size(), alloc_vec[0].size(), CV_64FC1);
+-        for (int i = 0; i &lt; alloc_mat.rows; i++)
+-            for (int j = 0; j &lt; alloc_mat.cols; j++)
+-                alloc_mat.at&lt;double&gt;(i,j) = alloc_vec[i][j];
++  cv::Mat alloc_mat (alloc_vec.size(), alloc_vec[0].size(), CV_64FC1);
++  for (int i = 0; i &lt; alloc_mat.rows; i++) {
++    for (int j = 0; j &lt; alloc_mat.cols; j++) {
++      alloc_mat.at&lt;double&gt;(i, j) = alloc_vec[i][j];
++    }
++  }
+@@ -64 +66 @@
+-        cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);
++  cv::invert(alloc_mat, pinv_alloc_, cv::DECOMP_SVD);
+@@ -66 +68 @@
+-        forces_pub_ = this-&gt;create_publisher&lt;std_msgs::msg::Float64MultiArray&gt;("output_forces", 10);
++  forces_pub_ = this-&gt;create_publisher&lt;std_msgs::msg::Float64MultiArray&gt;("output_forces", 10);
+@@ -68 +70 @@
+-        signals_pub_ = this-&gt;create_publisher&lt;std_msgs::msg::UInt32&gt;("signals", 10);
++  signals_pub_ = this-&gt;create_publisher&lt;std_msgs::msg::UInt32&gt;("signals", 10);
+@@ -70 +72,2 @@
+-        forces_sub_ = this-&gt;create_subscription&lt;geometry_msgs::msg::Wrench&gt;("input_forces", 10, std::bind(&amp;ThrustPublisher::wrenchCallback, this, _1));
++  forces_sub_ = this-&gt;create_subscription&lt;geometry_msgs::msg::Wrench&gt;("input_forces", 10,
++      std::bind(&amp;ThrustPublisher::wrenchCallback, this, _1));
+@@ -72 +75 @@
+-        RCLCPP_INFO(this-&gt;get_logger(), "Thrust Allocator succesfully started!");
++  RCLCPP_INFO(this-&gt;get_logger(), "Thrust Allocator succesfully started!");
+@@ -74 +77 @@
+-    }
++}
+@@ -77,7 +80,7 @@
+-    void ThrustPublisher::wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const
+-    {
+-        double tau_arr[6] =
+-        {
+-            msg-&gt;force.x, msg-&gt;force.y, msg-&gt;force.z,
+-            msg-&gt;torque.x, msg-&gt;torque.y, msg-&gt;torque.z,
+-        };
++void ThrustPublisher::wrenchCallback(const geometry_msgs::msg::Wrench::SharedPtr msg) const
++{
++  double tau_arr[6] =
++  {
++    msg-&gt;force.x, msg-&gt;force.y, msg-&gt;force.z,
++    msg-&gt;torque.x, msg-&gt;torque.y, msg-&gt;torque.z,
++  };
+@@ -85,3 +88,4 @@
+-        cv::Mat tau_mat (6, 1, CV_64F);
+-        for (int i = 0; i &lt; 6; i++)
+-            tau_mat.at&lt;double&gt;(i, 0) = tau_arr[i];
++  cv::Mat tau_mat (6, 1, CV_64F);
++  for (int i = 0; i &lt; 6; i++) {
++    tau_mat.at&lt;double&gt;(i, 0) = tau_arr[i];
++  }
+@@ -89 +93 @@
+-        cv::Mat thrust_mat =  pinv_alloc_*tau_mat;
++  cv::Mat thrust_mat = pinv_alloc_ * tau_mat;
+@@ -91,6 +95,5 @@
+-        std::vector&lt;double&gt; thrust;
+-        uint32_t signal = 0;
+-        for (int i = 0; i &lt; num_thrusters_ ; i++)
+-        {
+-            double thruster_thrust = thrust_mat.at&lt;double&gt;(i,0);
+-            thrust.push_back(thruster_thrust);
++  std::vector&lt;double&gt; thrust;
++  uint32_t signal = 0;
++  for (int i = 0; i &lt; num_thrusters_ ; i++) {
++    double thruster_thrust = thrust_mat.at&lt;double&gt;(i, 0);
++    thrust.push_back(thruster_thrust);
+@@ -98,2 +101,2 @@
+-            uint32_t t_level = forceToLevel(thruster_thrust);
+-            uint32_t t_bits = t_level &lt;&lt; (bits_per_thruster_ * i);
++    uint32_t t_level = forceToLevel(thruster_thrust);
++    uint32_t t_bits = t_level &lt;&lt; (bits_per_thruster_ * i);
+@@ -101,2 +104,2 @@
+-            signal |= t_bits;
+-        }
++    signal |= t_bits;
++  }
+@@ -105 +108 @@
+-        signal |= 0b10101010000000000000000000000000;
++  signal |= 0b10101010000000000000000000000000;
+@@ -108,6 +111,31 @@
+-        auto forces_msg = std_msgs::msg::Float64MultiArray();
+-        forces_msg.data = thrust;
+-        forces_pub_-&gt;publish(forces_msg);
+-        auto signal_msg = std_msgs::msg::UInt32();
+-        signal_msg.data = signal;
+-        signals_pub_-&gt;publish(signal_msg);
++  auto forces_msg = std_msgs::msg::Float64MultiArray();
++  forces_msg.data = thrust;
++  forces_pub_-&gt;publish(forces_msg);
++  auto signal_msg = std_msgs::msg::UInt32();
++  signal_msg.data = signal;
++  signals_pub_-&gt;publish(signal_msg);
++}
++
++std::vector&lt;double&gt; ThrustPublisher::cross(std::vector&lt;double&gt; r, std::vector&lt;double&gt; F)
++{
++  std::vector&lt;double&gt; tau;
++  tau.push_back(r[1] * F[2] - r[2] * F[1]);
++  tau.push_back(r[2] * F[0] - r[0] * F[2]);
++  tau.push_back(r[0] * F[1] - r[1] * F[0]);
++  return tau;
++}
++
++std::vector&lt;std::vector&lt;double&gt;&gt; ThrustPublisher::createAllocMat()
++{
++  std::vector&lt;std::vector&lt;double&gt;&gt; alloc_mat;
++  for (int i = 0; i &lt; num_thrusters_; i++) {
++    std::vector&lt;double&gt; F = {x_contribs_[i], y_contribs_[i], z_contribs_[i]};
++    std::vector&lt;double&gt; r = {x_lens_[i], y_lens_[i], z_lens_[i]};
++    std::vector&lt;double&gt; tau = cross(r, F);
++    F.insert(F.end(), tau.begin(), tau.end());
++    alloc_mat.push_back(F);
++  }
++  std::vector&lt;std::vector&lt;double&gt;&gt; alloc_mat_trans(6, std::vector&lt;double&gt;(num_thrusters_));
++  for(int i = 0; i &lt; num_thrusters_; ++i) {
++    for(int j = 0; j &lt; 6; ++j) {
++      alloc_mat_trans[j][i] = alloc_mat[i][j];
+@@ -114,0 +143,3 @@
++  }
++  return alloc_mat_trans;
++}
+@@ -116,7 +147,17 @@
+-    std::vector&lt;double&gt; ThrustPublisher::cross(std::vector&lt;double&gt; r,std::vector&lt;double&gt; F){
+-        std::vector&lt;double&gt; tau;
+-        tau.push_back(r[1]*F[2] - r[2]*F[1]);
+-        tau.push_back(r[2]*F[0] - r[0]*F[2]);
+-        tau.push_back(r[0]*F[1] - r[1]*F[0]);
+-        return tau;
+-    }
++uint32_t ThrustPublisher::forceToLevel(double force) const
++{
++  uint32_t t_level;
++  if (force &lt; 0.1 &amp;&amp; force &gt; -0.1) {
++    force = 0;
++  }
++  if (force &gt;= 0) {
++            // levels 0 to 15 (0 is no force)
++    t_level = (uint32_t) (std::ceil(std::min(force,
++        max_fwd_) / max_fwd_ * (encode_levels_ / 2 - 1)));
++        // turn to levels 16 to 31
++    t_level += encode_levels_ / 2;
++  } else {
++            // levels 0 to 16 (0 is max rev, 16 is no force)
++    t_level = (uint32_t) (16 - std::ceil(std::max(force,
++        -max_rev_) / -max_rev_ * (encode_levels_ / 2)));
++  }
+@@ -124,42 +165,3 @@
+-    std::vector&lt;std::vector&lt;double&gt;&gt; ThrustPublisher::createAllocMat(){
+-        std::vector&lt;std::vector&lt;double&gt;&gt; alloc_mat;
+-        for (int i = 0; i &lt; num_thrusters_; i++){
+-            std::vector&lt;double&gt; F = {x_contribs_[i], y_contribs_[i], z_contribs_[i]};
+-            std::vector&lt;double&gt; r = {x_lens_[i], y_lens_[i], z_lens_[i]};
+-            std::vector&lt;double&gt; tau = cross(r, F);
+-            F.insert(F.end(), tau.begin(), tau.end());
+-            alloc_mat.push_back(F);
+-        }
+-        std::vector&lt;std::vector&lt;double&gt;&gt; alloc_mat_trans(6, std::vector&lt;double&gt;(num_thrusters_));
+-        for(int i = 0; i &lt; num_thrusters_; ++i){
+-            for(int j = 0; j &lt; 6; ++j){
+-                alloc_mat_trans[j][i]=alloc_mat[i][j];
+-            }
+-        }
+-        return alloc_mat_trans;
+-    }
+-
+-    uint32_t ThrustPublisher::forceToLevel(double force) const{
+-        uint32_t t_level;
+-        if (force &lt; 0.1 &amp;&amp; force &gt; -0.1)
+-        {
+-            force = 0;
+-        }
+-        if (force &gt;= 0)
+-        {
+-            // levels 0 to 15 (0 is no force)
+-            t_level = (uint32_t) (std::ceil(std::min(force, max_fwd_) / max_fwd_ * (encode_levels_/2 - 1)));
+-        // turn to levels 16 to 31
+-        t_level += encode_levels_ / 2;
+-        }
+-        else
+-        {
+-            // levels 0 to 16 (0 is max rev, 16 is no force)
+-        t_level = (uint32_t) (16 - std::ceil(std::max(force, -max_rev_) / -max_rev_ * (encode_levels_/2)));
+-        }
+-
+-        t_level &amp;= ((uint32_t)pow(2, bits_per_thruster_) - 1);
+-        return t_level;
+-    }
+-
+-
++  t_level &amp;= ((uint32_t)pow(2, bits_per_thruster_) - 1);
++  return t_level;
++}
+@@ -177 +179,2 @@
+-  } catch (rclcpp::exceptions::RCLError const&amp;){} // during testing sometimes throws error
++  } catch (rclcpp::exceptions::RCLError const &amp;) {
++  }                                               // during testing sometimes throws error
+@@ -180 +182,0 @@
+-
+
+2 files with code style divergence
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/uncrustify.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>uncrustify</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/xmllint.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.206282</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/xmllint.xunit.xml" "--package-name" "doe_control" "--output-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_control':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_control/test_results/doe_control/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Nov 30 07:38 PST</EndDateTime>
+		<EndTestTime>1732981128</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

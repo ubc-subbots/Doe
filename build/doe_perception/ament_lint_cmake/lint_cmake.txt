@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/hollowknight/Documents/code/Doe/src/doe_perception':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hollowknight/Documents/code/Doe/build/doe_perception/test_results/doe_perception/lint_cmake.xunit.xml'

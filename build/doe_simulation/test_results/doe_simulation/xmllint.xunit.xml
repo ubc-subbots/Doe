@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="doe_simulation.xmllint"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.308"
+>
+  <testcase
+    name="package.xml"
+    classname="doe_simulation.xmllint"/>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

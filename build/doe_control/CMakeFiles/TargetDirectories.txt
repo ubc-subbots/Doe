@@ -1,0 +1,10 @@
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/uninstall.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/doe_control_uninstall.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/thrust_publisher.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/test.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/edit_cache.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/rebuild_cache.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/list_install_components.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/install.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/install/local.dir
+/home/hollowknight/Documents/code/Doe/build/doe_control/CMakeFiles/install/strip.dir

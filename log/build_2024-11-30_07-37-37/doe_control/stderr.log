@@ -1,0 +1,27 @@
+/usr/bin/ld: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o: in function `doe_control::ThrustPublisher::ThrustPublisher(rclcpp::NodeOptions const&)':
+thrust_publisher.cpp:(.text+0x3b9): undefined reference to `cv::Mat::Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x15ce): undefined reference to `cv::Mat::Mat(int, int, int)'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x16d4): undefined reference to `cv::invert(cv::_InputArray const&, cv::_OutputArray const&, int)'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x1be6): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x22b3): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x239f): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o: in function `doe_control::ThrustPublisher::wrenchCallback(std::shared_ptr<geometry_msgs::msg::Wrench_<std::allocator<void> > >) const':
+thrust_publisher.cpp:(.text+0x250e): undefined reference to `cv::Mat::Mat(int, int, int)'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x2592): undefined reference to `cv::operator*(cv::Mat const&, cv::Mat const&)'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x2772): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x2781): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x27ee): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text+0x2806): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o: in function `cv::MatExpr::operator cv::Mat() const':
+thrust_publisher.cpp:(.text._ZNK2cv7MatExprcvNS_3MatEEv[_ZNK2cv7MatExprcvNS_3MatEEv]+0x1d): undefined reference to `cv::Mat::Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text._ZNK2cv7MatExprcvNS_3MatEEv[_ZNK2cv7MatExprcvNS_3MatEEv]+0x5d): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o: in function `cv::MatExpr::~MatExpr()':
+thrust_publisher.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x1e): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x2e): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: thrust_publisher.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x3e): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/thrust_publisher.dir/src/thrust_publisher.cpp.o: in function `doe_control::ThrustPublisher::~ThrustPublisher()':
+thrust_publisher.cpp:(.text._ZN11doe_control15ThrustPublisherD2Ev[_ZN11doe_control15ThrustPublisherD5Ev]+0x98): undefined reference to `cv::Mat::~Mat()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/thrust_publisher.dir/build.make:189: thrust_publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thrust_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
