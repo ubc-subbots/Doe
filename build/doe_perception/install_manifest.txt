@@ -1,0 +1,15 @@
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/ament_index/resource_index/package_run_dependencies/doe_perception
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/ament_index/resource_index/parent_prefix_path/doe_perception
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/environment/ament_prefix_path.sh
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/environment/ament_prefix_path.dsv
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/environment/path.sh
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/environment/path.dsv
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/local_setup.bash
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/local_setup.sh
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/local_setup.zsh
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/local_setup.dsv
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/package.dsv
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/ament_index/resource_index/packages/doe_perception
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/cmake/doe_perceptionConfig.cmake
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/cmake/doe_perceptionConfig-version.cmake
+/home/hollowknight/Documents/code/Doe/install/doe_perception/share/doe_perception/package.xml

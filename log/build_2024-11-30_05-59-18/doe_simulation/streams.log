@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/hollowknight/Documents/code/Doe/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hollowknight/Documents/code/Doe/build/doe_simulation -- -j12 -l12
+[0.044s] Invoked command in '/home/hollowknight/Documents/code/Doe/build/doe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hollowknight/Documents/code/Doe/build/doe_simulation -- -j12 -l12
+[0.062s] Invoking command in '/home/hollowknight/Documents/code/Doe/build/doe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hollowknight/Documents/code/Doe/build/doe_simulation
+[0.069s] -- Install configuration: ""
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/ament_index/resource_index/package_run_dependencies/doe_simulation
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/ament_index/resource_index/parent_prefix_path/doe_simulation
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/environment/path.sh
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/environment/path.dsv
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/local_setup.bash
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/local_setup.sh
+[0.070s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/local_setup.zsh
+[0.071s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/local_setup.dsv
+[0.071s] -- Installing: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/package.dsv
+[0.071s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/ament_index/resource_index/packages/doe_simulation
+[0.071s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/cmake/doe_simulationConfig.cmake
+[0.071s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/cmake/doe_simulationConfig-version.cmake
+[0.071s] -- Up-to-date: /home/hollowknight/Documents/code/Doe/install/doe_simulation/share/doe_simulation/package.xml
+[0.087s] Invoked command in '/home/hollowknight/Documents/code/Doe/build/doe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hollowknight/Documents/code/Doe/build/doe_simulation

@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:24 (find_package):
+  By not providing "Findtriton_interfaces.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "triton_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by "triton_interfaces"
+  with any of the following names:
+
+    triton_interfacesConfig.cmake
+    triton_interfaces-config.cmake
+
+  Add the installation prefix of "triton_interfaces" to CMAKE_PREFIX_PATH or
+  set "triton_interfaces_DIR" to a directory containing one of the above
+  files.  If "triton_interfaces" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

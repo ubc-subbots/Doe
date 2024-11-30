@@ -21,11 +21,10 @@ find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(Eigen3 REQUIRED)
-find_package(triton_interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
-find_package(OpenCV 4.10 REQUIRED)
+find_package(OpenCV 4.10.0 REQUIRED)
 find_package(tf2 REQUIRED)
 
 # Header files
